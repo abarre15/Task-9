@@ -1,0 +1,28 @@
+---
+title: "Steen Lab Member"
+author: "Abigail Barrett"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Steen Lab Member}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Description
+
+This package is used to ask people if they are Steen Lab members. If they are not in the Steen Lab they will be told to be in the Steeb Lab. #steenlab
+
+## Usage
+
+are_you_a_steen_lab_member(is.member = NULL)
+
+## Arguments 
+is.member 
+  logical; TRUE if person is lab member, FALSE if not
+  
+## Examples 
+are_you_a_steen_lab_member(is.member = TRUE)
+
+
+
